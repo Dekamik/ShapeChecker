@@ -10,5 +10,5 @@ public class TestConsole {
 		ShapeConsole s = new ShapeConsole();
 	}
 	
-	//helluuuuu
+	//hellu
 }
