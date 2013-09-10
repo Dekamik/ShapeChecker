@@ -9,4 +9,6 @@ public class TestConsole {
 	public void test() {
 		ShapeConsole s = new ShapeConsole();
 	}
+	
+	//helluuuuu
 }
