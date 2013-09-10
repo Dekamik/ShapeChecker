@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class ShapeChecker {
 	
+	public ShapeChecker() {
+		
+	}
+	
 	public void program() {
 		ShapeConsole c = new ShapeConsole();
 		Scanner sc = new Scanner(System.in);
@@ -19,9 +23,18 @@ public class ShapeChecker {
 		}
 	}
 	
+	public void program2() {
+		ShapeConsole c = new ShapeConsole();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Press any key to start.");
+		while(!c.ended()) {
+			System.out.println(c.input(sc.nextLine()));
+		}
+	}
+	
 	public static void main(String[]args) {
 		ShapeChecker s = new ShapeChecker();
-		s.program();
+		s.program2();
 		System.exit(0);
 	}
 }
